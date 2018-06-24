@@ -1,6 +1,6 @@
 {% set name = "marbles" %}
-{% set version = "0.9.4" %}
-{% set sha256 = "42a13a22e17340d4fad9651de0d723d06978c7e7d6ad36c1a541c8cf6fe4f76c" %}
+{% set version = "0.9.5" %}
+{% set sha256 = "dfdd7b9959b778c797862845d251c7ff9ef6fa19e51d2389209c9b8fc9fbad3f" %}
 
 package:
   name: {{ name|lower }}
