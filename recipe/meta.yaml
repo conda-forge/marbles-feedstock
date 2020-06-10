@@ -1,6 +1,6 @@
 {% set name = "marbles" %}
-{% set version = "0.10.0" %}
-{% set sha256 = "398d6d24ae147ecb4a40d00d689795e5d2ffa5c442c37fb52e98f3baa408fdca" %}
+{% set version = "0.11.0" %}
+{% set sha256 = "4311442d40fc1555689aeeced9f671358d4e076e5b0416c296359fc2e5763419" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
